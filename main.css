@@ -1,0 +1,70 @@
+h1 {color: rgb(0, 0, 0);
+    font-size: 52px;
+    border: 1px ;
+}
+
+
+h2 {color: rgb(0, 0, 0);
+    font-weight: 100;
+    font-size: 40px
+}
+
+.text {color: rgb(0, 0, 0);
+    font-weight: 100;
+    font-size: 18px;
+    text-align: left;
+    text-shadow: rgb(160, 164, 209) 1px 1px;
+}
+
+.text2 {color: rgb(0, 0, 0);
+    font-weight: 100;
+    font-size: 32px;
+    text-align: left;
+    text-shadow: rgb(160, 164, 209) 1px 1px;
+}
+
+.sub{color: rgb(0, 0, 0);
+    font-weight: 100;
+    font-size: 18px}
+
+
+
+.container{
+    display: flex;
+    min-height: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.image-text{clear: both;
+}
+
+.image{
+    float: right;
+}
+
+.text{
+    float: left;
+}
+
+.container2{
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container3{
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+}
+
+.image{
+    position: absolute;
+    right:6px;
+    top:6px;
+    z-index: -1;
+}
